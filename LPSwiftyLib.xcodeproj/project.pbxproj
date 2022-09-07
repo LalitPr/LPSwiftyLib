@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		673ACCDC28C896EA004F5402 /* LPSwiftyLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673ACCDB28C896EA004F5402 /* LPSwiftyLib.swift */; };
 		67BA3DC128C8749D0033EDFB /* LPSwiftyLib.docc in Sources */ = {isa = PBXBuildFile; fileRef = 67BA3DC028C8749D0033EDFB /* LPSwiftyLib.docc */; };
 		67BA3DC728C8749D0033EDFB /* LPSwiftyLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67BA3DBC28C8749D0033EDFB /* LPSwiftyLib.framework */; };
 		67BA3DCC28C8749D0033EDFB /* LPSwiftyLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BA3DCB28C8749D0033EDFB /* LPSwiftyLibTests.swift */; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		673ACCDB28C896EA004F5402 /* LPSwiftyLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPSwiftyLib.swift; sourceTree = "<group>"; };
 		67BA3DBC28C8749D0033EDFB /* LPSwiftyLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LPSwiftyLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67BA3DBF28C8749D0033EDFB /* LPSwiftyLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPSwiftyLib.h; sourceTree = "<group>"; };
 		67BA3DC028C8749D0033EDFB /* LPSwiftyLib.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = LPSwiftyLib.docc; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 			children = (
 				67BA3DBF28C8749D0033EDFB /* LPSwiftyLib.h */,
 				67BA3DC028C8749D0033EDFB /* LPSwiftyLib.docc */,
+				673ACCDB28C896EA004F5402 /* LPSwiftyLib.swift */,
 			);
 			path = LPSwiftyLib;
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67BA3DC128C8749D0033EDFB /* LPSwiftyLib.docc in Sources */,
+				673ACCDC28C896EA004F5402 /* LPSwiftyLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -637,6 +641,7 @@
 		67BA3DD428C8749D0033EDFB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -652,6 +657,7 @@
 		67BA3DD528C8749D0033EDFB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
